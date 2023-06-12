@@ -1,0 +1,15 @@
+name: $name
+version: $version
+main: com.maximum.worldtravel.Main
+description: $description
+load: STARTUP
+authors:
+  - Maximum
+api-version: $apiVersion
+depend:
+  - ProtocolLib
+commands:
+  worldtravel:
+    description: 'Used to travel between worlds'
+    usage: '/worldtravel <worldname>'
+    aliases: [wt]
