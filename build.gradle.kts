@@ -5,7 +5,7 @@ plugins {
 }
 
 group = "com.maximum.worldtravel"
-version = "1.0.0-SNAPSHOT"
+version = "1.0.1-SNAPSHOT"
 description = "Plugin for travelling between worlds"
 
 java {
@@ -14,7 +14,7 @@ java {
 }
 
 dependencies {
-  paperweight.paperDevBundle("1.19.4-R0.1-SNAPSHOT")
+  paperweight.paperDevBundle("1.20-R0.1-SNAPSHOT")
   compileOnly("com.comphenix.protocol:ProtocolLib:5.0.0")
 
   //compileOnly("com.sk89q.worldedit:worldedit-bukkit:7.2.15-SNAPSHOT")
@@ -53,7 +53,7 @@ tasks {
       "name" to project.name,
       "version" to project.version,
       "description" to project.description,
-      "apiVersion" to "1.19"
+      "apiVersion" to "1.20"
     )
     inputs.properties(props)
     filesMatching("plugin.yml") {
